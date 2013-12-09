@@ -16,7 +16,7 @@ Recipes:
 ["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
 
 Preferences:
-{:git=>true, :apps4=>"none", :dev_webserver=>"webrick", :prod_webserver=>"same", :database=>"sqlite", :templates=>"erb", :unit_test=>"rspec", :integration=>"cucumber", :continuous_testing=>"none", :fixtures=>"factory_girl", :frontend=>"foundation5", :email=>"smtp", :authentication=>"devise", :devise_modules=>"confirmable", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"users_app", :rvmrc=>true, :quiet_assets=>true, :local_env_file=>true, :better_errors=>true, :github=>true}
+{:git=>true, :apps4=>"none", :dev_webserver=>"webrick", :prod_webserver=>"same", :database=>"sqlite", :templates=>"erb", :unit_test=>"rspec", :integration=>"cucumber", :continuous_testing=>"none", :fixtures=>"factory_girl", :frontend=>"bootstrap2", :email=>"none", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"admin_app", :rvmrc=>true, :quiet_assets=>true, :local_env_file=>true, :better_errors=>true}
 
 h2. Ruby on Rails
 
@@ -35,14 +35,14 @@ h2. Development
 
 * Template Engine: ERB
 * Testing Framework: RSpec and Factory Girl and Cucumber
-* Front-end Framework: Zurb Foundation 5
+* Front-end Framework: Twitter Bootstrap 2.3 (Sass)
 * Form Builder: SimpleForm
 * Authentication: Devise
 * Authorization: CanCan
 
-h2. Email
 
-The application is configured to send email using a SMTP account.
+
+
 
 h2. Getting Started
 
